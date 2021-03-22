@@ -1,0 +1,12 @@
+starting auto_part 4 splits at 1611984265.1769211
+starting self.verify timestamps at 1611984265.1769311
+starting setup and partitioning at 1611984265.718521
+histo (used to get histo_pct):   [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
+histo_pct (used for calculating cost:)   [0.0625, 0.125, 0.1875, 0.25, 0.3125, 0.375, 0.4375, 0.5, 0.5625, 0.625, 0.6875, 0.75, 0.8125, 0.875, 0.9375, 1.0]
+finished setup and partitioning at 1611984265.8103423
+starting forward prop at 1611984265.8103483
+finished forward prop at 1611984267.0693831
+starting backprop + loss comput at 1611984267.0693913
+finished backprop + loss comput at 1611984269.3038797
+finished inside self.verify timestamps at 1611984269.336416
+finished auto 4 splits at 1611984269.3364656

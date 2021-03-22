@@ -1,0 +1,56 @@
+session setup : 20.0 % of test cases were outside the bounds +/- 1 of stddev
+setup and partitioning : 10.0 % of test cases were outside the bounds +/- 1 of stddev
+eval of expected outputs : 40.0 % of test cases were outside the bounds +/- 1 of stddev
+sym link creation : 10.0 % of test cases were outside the bounds +/- 1 of stddev
+building input layer : 10.0 % of test cases were outside the bounds +/- 1 of stddev
+linking devices and creating middle layers : 10.0 % of test cases were outside the bounds +/- 1 of stddev
+building final layer : 20.0 % of test cases were outside the bounds +/- 1 of stddev
+input fwd computation : 10.0 % of test cases were outside the bounds +/- 1 of stddev
+input layer data transfer : 10.0 % of test cases were outside the bounds +/- 1 of stddev
+middle fwd computation : 20.0 % of test cases were outside the bounds +/- 1 of stddev
+middle layer data transfer : 10.0 % of test cases were outside the bounds +/- 1 of stddev
+middle fwd computation : 10.0 % of test cases were outside the bounds +/- 1 of stddev
+middle layer data transfer : 10.0 % of test cases were outside the bounds +/- 1 of stddev
+output layer fwd computation : 10.0 % of test cases were outside the bounds +/- 1 of stddev
+actual fwd prop : 20.0 % of test cases were outside the bounds +/- 1 of stddev
+releasing final layer output : 10.0 % of test cases were outside the bounds +/- 1 of stddev
+forward prop : 20.0 % of test cases were outside the bounds +/- 1 of stddev
+loss computation : 10.0 % of test cases were outside the bounds +/- 1 of stddev
+output layer computing gradients : 20.0 % of test cases were outside the bounds +/- 1 of stddev
+output layer sending gradients : 10.0 % of test cases were outside the bounds +/- 1 of stddev
+middle layer computing gradients : 20.0 % of test cases were outside the bounds +/- 1 of stddev
+middle layer sending gradients : 10.0 % of test cases were outside the bounds +/- 1 of stddev
+middle layer computing gradients : 10.0 % of test cases were outside the bounds +/- 1 of stddev
+middle layer sending gradients : 10.0 % of test cases were outside the bounds +/- 1 of stddev
+input layer computing gradients : 10.0 % of test cases were outside the bounds +/- 1 of stddev
+backprop : 20.0 % of test cases were outside the bounds +/- 1 of stddev
+verify timestamps : 40.0 % of test cases were outside the bounds +/- 1 of stddev
+auto partition 4 splits : 40.0 % of test cases were outside the bounds +/- 1 of stddev
+session setup : 0.005123639106750488
+setup and partitioning : 0.09425334930419922
+eval of expected outputs : 0.16907618045806885
+sym link creation : 0.00013272762298583985
+building input layer : 0.0694854736328125
+linking devices and creating middle layers : 0.14644272327423097
+building final layer : 0.09049103260040284
+input fwd computation : 0.034421229362487794
+input layer data transfer : 0.10573525428771972
+middle fwd computation : 0.04616849422454834
+middle layer data transfer : 0.1226534128189087
+middle fwd computation : 0.04818751811981201
+middle layer data transfer : 0.10765407085418702
+output layer fwd computation : 0.05783944129943848
+actual fwd prop : 0.6243863344192505
+releasing final layer output : 0.0010582208633422852
+forward prop : 1.2131449937820435
+loss computation : 0.0005238533020019531
+output layer computing gradients : 0.07754666805267334
+output layer sending gradients : 0.1600193977355957
+middle layer computing gradients : 0.06256988048553466
+middle layer sending gradients : 0.1735157012939453
+middle layer computing gradients : 0.06115071773529053
+middle layer sending gradients : 0.15073206424713134
+input layer computing gradients : 0.046582698822021484
+backprop : 2.2721811532974243
+verify timestamps : 3.585987854003906
+auto partition 4 splits : 3.5861311197280883

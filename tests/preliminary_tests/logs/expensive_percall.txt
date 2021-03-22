@@ -1,0 +1,104 @@
+Wed Feb 10 09:44:43 2021    profile
+
+         2006307 function calls (1950115 primitive calls) in 4.756 seconds
+
+   Ordered by: primitive call count
+   List reduced from 1658 to 332 due to restriction <'lingvo/core'>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+     
+       16    0.000    0.000    0.914    0.057 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/gpipe.py:143(FProp)
+       
+       16    0.000    0.000    0.915    0.057 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/gpipe.py:456(CellFn)
+       
+    32/16    0.000    0.000    1.407    0.088 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/py_utils.py:5004(Fn)
+    32/16    0.000    0.000    2.038    0.127 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/py_utils.py:5002(Decorated)
+    32/16    0.000    0.000    1.401    0.088 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/py_utils.py:5084(Forward)
+    32/16    0.001    0.000    2.044    0.128 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/py_utils.py:5034(_DefineFunction)
+    32/16    0.000    0.000    2.044    0.128 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/py_utils.py:5290(__call__)
+    32/16    0.000    0.000    2.044    0.128 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/py_utils.py:5307(__init__)
+       
+        8    0.000    0.000    1.493    0.187 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/py_utils.py:5454(WhileLoop)
+        8    0.000    0.000    0.026    0.003 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/py_utils.py:804(ConvertNoneGradientToZeros)
+        
+     37/5    0.000    0.000    0.081    0.016 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/base_layer.py:832(_CreateChildrenVariables)
+        4    0.000    0.000    0.055    0.014 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/recurrent.py:1386(<listcomp>)
+        4    0.000    0.000    0.057    0.014 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/recurrent.py:1385(SumToZero)
+        4    0.000    0.000    0.048    0.012 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/recurrent.py:1389(<listcomp>)
+        4    0.000    0.000    0.105    0.026 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/recurrent.py:1370(_DependsOn)
+        
+        
+        4    0.000    0.000    0.244    0.061 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/recurrent.py:341(Fwd)
+        
+        4    0.000    0.000    0.273    0.068 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/recurrent.py:371(ForwardLoopBody)
+        4    0.000    0.000    0.582    0.145 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/recurrent.py:388(Forward)
+        4    0.000    0.000    0.344    0.086 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/recurrent.py:433(Bak)
+       
+        4    0.000    0.000    0.572    0.143 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/recurrent.py:481(BackwardLoopBody)
+        4    0.000    0.000    1.068    0.267 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/recurrent.py:542(Backward)
+        
+        4    0.000    0.000    0.724    0.181 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/recurrent.py:622(Compute)
+        4    0.000    0.000    0.236    0.059 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/recurrent.py:678(Fwd)
+        4    0.004    0.001    0.452    0.113 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/recurrent.py:642(_ReflectOnCellFn)
+        4    0.000    0.000    0.314    0.078 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/recurrent.py:763(CellGrad)
+        4    0.000    0.000    0.452    0.113 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/recurrent.py:719(_GetCellGrad)
+        4    0.000    0.000    0.243    0.061 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/recurrent.py:810(WrappedCellFn)
+       
+        4    0.000    0.000    0.343    0.086 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/recurrent.py:830(WrappedCellGradFn)
+        4    0.000    0.000    0.000    0.000 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/recurrent.py:827(_WrapAccumulatorCellGradFn)
+        4    0.000    0.000    0.244    0.061 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/recurrent.py:852(WrappedCellFn)
+        4    0.000    0.000    0.000    0.000 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/recurrent.py:849(_WrapCellFnWithStepSeed)
+        4    0.000    0.000    0.343    0.086 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/recurrent.py:868(WrappedCellGradFn)
+       
+      
+        4    0.000    0.000    0.048    0.012 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/py_utils.py:5105(Call)
+        4    0.000    0.000    1.071    0.268 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/py_utils.py:5123(Backward)
+        4    0.000    0.000    1.071    0.268 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/py_utils.py:5134(BackwardWithSharedRendezvous)
+        4    0.000    0.000    1.078    0.269 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/py_utils.py:5152(Grad)
+        4    0.000    0.000    0.018    0.004 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/py_utils.py:5140(ForwardWithGrad)
+        4    0.000    0.000    0.047    0.012 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/py_utils.py:5178(<lambda>)
+        4    0.000    0.000    0.048    0.012 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/py_utils.py:5179(<lambda>)
+        4    0.000    0.000    0.048    0.012 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/py_utils.py:5343(__call__)
+        
+        4    0.000    0.000    0.724    0.181 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/py_utils.py:5391(CallDefun)
+        4    0.000    0.000    0.095    0.024 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/py_utils.py:5421(If)
+        
+    
+        2    0.000    0.000    0.364    0.182 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/recurrent.py:1237(Compute)
+        
+        2    0.000    0.000    0.179    0.089 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/recurrent.py:1211(__init__)
+        2    0.000    0.000    0.123    0.062 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/recurrent.py:1239(MiddleFn)
+        2    0.000    0.000    0.174    0.087 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/recurrent.py:1253(MiddleGrad)
+       
+        1    0.000    0.000    0.184    0.184 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/recurrent.py:1296(__init__)
+        1    0.000    0.000    0.074    0.074 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/recurrent.py:1319(OutputFn)
+        1    0.000    0.000    0.107    0.107 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/recurrent.py:1332(OutputGrad)
+        1    0.000    0.000    0.231    0.231 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/recurrent.py:1317(Compute)
+        1    0.000    0.000    1.524    1.524 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/recurrent.py:1392(StackedRecurrent)
+        1    0.000    0.000    0.212    0.212 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/recurrent.py:1520(ExpectedOutputOfLayers)
+        1    0.000    0.000    0.089    0.089 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/recurrent.py:1136(__init__)
+        1    0.000    0.000    0.045    0.045 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/recurrent.py:1170(InputFn)
+        1    0.000    0.000    0.061    0.061 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/recurrent.py:1179(InputGrad)
+        1    0.000    0.000    0.137    0.137 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/recurrent.py:1168(Compute)
+        1    0.000    0.000    1.524    1.524 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/recurrent.py:1460(_StackedRecurrent)
+       
+        1    0.000    0.000    0.030    0.030 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/gpipe.py:264(__init__)
+        1    0.000    0.000    0.082    0.082 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/gpipe.py:276(_CreateChildrenVariables)
+       
+        1    0.000    0.000    1.550    1.550 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/gpipe.py:424(FProp)
+       
+        1    0.000    0.000    0.028    0.028 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/py_utils.py:3689(_TransformAndSum)
+        1    0.000    0.000    0.028    0.028 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/py_utils.py:3701(SumSquared)
+        1    0.000    0.000    0.518    0.518 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/test_utils.py:44(_create_session)
+        1    0.000    0.000    1.550    1.550 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/base_layer.py:377(FPropDefaultTheta)
+        1    0.000    0.000    0.001    0.001 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/base_layer.py:458(do_eval)
+     41/1    0.000    0.000    0.085    0.085 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/base_layer.py:800(InstantiateVariables)
+     37/1    0.000    0.000    0.003    0.003 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/base_layer.py:961(_VerifyVarsAndTheta)
+        1    0.000    0.000    0.000    0.000 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/cluster.py:429(do_eval)
+        1    0.000    0.000    0.000    0.000 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/cluster.py:433(immediately_create_variables)
+     37/1    0.000    0.000    0.116    0.116 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/hyperparams.py:896(Instantiate)
+     75/1    0.000    0.000    0.116    0.116 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/base_layer.py:109(Wrapper)
+        1    0.000    0.000    0.030    0.030 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/base_layer.py:167(TrivialInit)
+     37/1    0.000    0.000    0.116    0.116 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/base_layer.py:176(__call__)
+
+

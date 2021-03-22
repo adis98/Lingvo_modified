@@ -1,0 +1,80 @@
+starting auto_part 4 splits at 1612236538.1398673
+starting self.verify timestamps at 1612236538.1398766
+starting setup and partitioning at 1612236538.698156
+histo (used to get histo_pct):   [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
+histo_pct (used for calculating cost:)   [0.0625, 0.125, 0.1875, 0.25, 0.3125, 0.375, 0.4375, 0.5, 0.5625, 0.625, 0.6875, 0.75, 0.8125, 0.875, 0.9375, 1.0]
+finished setup and partitioning at 1612236538.8067312
+starting forward prop at 1612236538.8067372
+starting evaluation of expected outputs of layers at: 1612236538.9176424
+finished evaluating expected outputs of layers at: 1612236539.1057603
+starting symbolic creation of link between device 0 and device 1 at time: 1612236539.107592
+finished creation of symbolic link btwn device 0 and 1 at: 1612236539.1077168
+building of input layers at: 1612236539.1080043
+building done for input layers at: 1612236539.18745
+performing linking of devices and creating layers for intermediate layers at: 1612236539.1874602
+linking of middle layers done at: 1612236539.3845682
+building of final layers at: 1612236539.3846104
+building of final layers done at: 1612236539.4815056
+actual forward prop with data transfer starting at: 1612236539.4815145
+input layer sending data at: 1612236539.553878
+sending tensor of size: 48
+sending tensor of size: 48
+input layer finished sending at: 1612236539.5548134
+middle layer receiving inputs from prev split at: 1612236539.7197866
+received tensor of size: 48
+received tensor of size: 48
+middle layer finished receiving at: 1612236539.7206457
+middle layer sending to next layer at: 1612236539.7732122
+sending tensor of size: 48
+sending tensor of size: 48
+middle layer finished sending to next layer at: 1612236539.7740824
+middle layer receiving inputs from prev split at: 1612236539.9536116
+received tensor of size: 48
+received tensor of size: 48
+middle layer finished receiving at: 1612236539.954315
+middle layer sending to next layer at: 1612236540.0053751
+sending tensor of size: 48
+sending tensor of size: 48
+middle layer finished sending to next layer at: 1612236540.0060966
+output layer receiving at: 1612236540.1182444
+received tensor of size: 48
+received tensor of size: 48
+output finished receiving at: 1612236540.1189604
+actual fwd prop ended at: 1612236540.2484293
+releasing of final layer output starting at: 1612236540.248437
+releasing of final layer outputs ended at: 1612236540.2494464
+finished forward prop at 1612236540.2503514
+starting backprop + loss comput at 1612236540.2503572
+loss computation starting at: 1612236540.2503734
+loss computation finished at: 1612236540.2509494
+sending the gradient from output layer backwards at: 1612236540.5259342
+sending tensor of size: 48
+sending tensor of size: 48
+finished sending gradients from output layer at: 1612236540.5266654
+input layer gradient comp. finished at: 1612236540.539246
+middle layer receiving gradients from subsequentlayer at: 1612236540.6820605
+received tensor of size: 48
+received tensor of size: 48
+middle layer finished receiving gradients from subsequent layer at: 1612236540.6827846
+middle layer sending gradients to previous layer at: 1612236540.74861
+sending tensor of size: 48
+sending tensor of size: 48
+middle layer finished sending gradients to previous layer at: 1612236540.7493377
+input layer gradient comp. finished at: 1612236540.7666376
+middle layer receiving gradients from subsequentlayer at: 1612236540.9184597
+received tensor of size: 48
+received tensor of size: 48
+middle layer finished receiving gradients from subsequent layer at: 1612236540.919162
+middle layer sending gradients to previous layer at: 1612236540.9839363
+sending tensor of size: 48
+sending tensor of size: 48
+middle layer finished sending gradients to previous layer at: 1612236540.9846547
+input layer gradient comp. finished at: 1612236541.0036743
+input layer receiving gradients from middle layer at: 1612236541.1334064
+received tensor of size: 48
+received tensor of size: 48
+input layer finished receiving gradients from middle layer at: 1612236541.1341136
+input layer gradient comp. finished at: 1612236541.197188
+finished backprop + loss comput at 1612236543.6555521
+finished inside self.verify timestamps at 1612236543.7128391
+finished auto 4 splits at 1612236543.7130163

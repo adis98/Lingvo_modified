@@ -1,0 +1,19 @@
+Wed Feb 10 09:02:45 2021    profile
+
+         2006307 function calls (1950115 primitive calls) in 4.850 seconds
+
+   Ordered by: cumulative time
+   List reduced from 1658 to 9 due to restriction <'gpipe_test_cProfile.py'>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    4.853    4.853 gpipe_test_cProfile.py:151(_verify_timestep_counts)
+       64    0.001    0.000    0.923    0.014 gpipe_test_cProfile.py:59(FProp)
+       64    0.000    0.000    0.060    0.001 gpipe_test_cProfile.py:42(Increment)
+       80    0.000    0.000    0.022    0.000 gpipe_test_cProfile.py:39(DefaultValue)
+       16    0.000    0.000    0.016    0.001 gpipe_test_cProfile.py:49(__init__)
+        1    0.000    0.000    0.001    0.001 gpipe_test_cProfile.py:87(_Partition)
+        1    0.000    0.000    0.001    0.001 gpipe_test_cProfile.py:89(<listcomp>)
+        1    0.000    0.000    0.001    0.001 gpipe_test_cProfile.py:163(<listcomp>)
+       32    0.000    0.000    0.000    0.000 gpipe_test_cProfile.py:66(FPropMeta)
+
+

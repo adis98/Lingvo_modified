@@ -1,0 +1,26 @@
+starting auto_part 4 splits at 1612058653.3347554
+starting self.verify timestamps at 1612058653.3347645
+starting setup and partitioning at 1612058653.9013655
+histo (used to get histo_pct):   [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
+histo_pct (used for calculating cost:)   [0.0625, 0.125, 0.1875, 0.25, 0.3125, 0.375, 0.4375, 0.5, 0.5625, 0.625, 0.6875, 0.75, 0.8125, 0.875, 0.9375, 1.0]
+finished setup and partitioning at 1612058654.0126493
+starting forward prop at 1612058654.0126548
+starting evaluation of expected outputs of layers at: 1612058654.1354413
+finished evaluating expected outputs of layers at: 1612058654.3382163
+starting symbolic creation of link between device 0 and device 1 at time: 1612058654.3400598
+finished creation of symbolic link btwn device 0 and 1 at: 1612058654.3401823
+building of input layers at: 1612058654.3404384
+building done for input layers at: 1612058654.4203587
+performing linking of devices and creating layers for intermediate layers at: 1612058654.4203682
+linking of middle layers done at: 1612058654.5892854
+building of final layers at: 1612058654.5893414
+building of final layers done at: 1612058654.6991737
+actual forward prop with data transfer starting at: 1612058654.699185
+actual fwd prop ended at: 1612058655.41577
+releasing of final layer output starting at: 1612058655.415777
+releasing of final layer outputs ended at: 1612058655.4167845
+finished forward prop at 1612058655.41765
+starting backprop + loss comput at 1612058655.4176564
+finished backprop + loss comput at 1612058657.7399278
+finished inside self.verify timestamps at 1612058657.775311
+finished auto 4 splits at 1612058657.7753618

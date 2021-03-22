@@ -1,0 +1,39 @@
+Wed Feb 10 08:53:41 2021    profile
+
+         2003915 function calls (1947864 primitive calls) in 4.213 seconds
+
+   Ordered by: cumulative time
+   List reduced from 1626 to 29 due to restriction <'gpipe.py'>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    1.553    1.553 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/gpipe.py:424(FProp)
+       16    0.000    0.000    0.916    0.057 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/gpipe.py:456(CellFn)
+       16    0.000    0.000    0.914    0.057 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/gpipe.py:143(FProp)
+        1    0.000    0.000    0.082    0.082 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/gpipe.py:276(_CreateChildrenVariables)
+        1    0.000    0.000    0.030    0.030 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/gpipe.py:264(__init__)
+        4    0.000    0.000    0.023    0.006 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/gpipe.py:129(__init__)
+        1    0.000    0.000    0.016    0.016 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/gpipe.py:559(<listcomp>)
+        1    0.000    0.000    0.002    0.002 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/gpipe.py:542(_StackAndSplit)
+        4    0.000    0.000    0.002    0.000 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/gpipe.py:512(_TfZeros)
+        8    0.000    0.000    0.001    0.000 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/gpipe.py:117(Params)
+        1    0.000    0.000    0.001    0.001 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/gpipe.py:578(_ReshapeRetVal)
+       16    0.000    0.000    0.000    0.000 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/gpipe.py:460(_FPropInputSetShape)
+        1    0.000    0.000    0.000    0.000 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/gpipe.py:342(_CalculateOutputShapes)
+        1    0.000    0.000    0.000    0.000 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/gpipe.py:181(PartitionSequentialLayers)
+        4    0.000    0.000    0.000    0.000 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/gpipe.py:163(FPropMeta)
+       99    0.000    0.000    0.000    0.000 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/gpipe.py:103(_ToTuple)
+       16    0.000    0.000    0.000    0.000 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/gpipe.py:58(SetOverWriteGlobalStep)
+       32    0.000    0.000    0.000    0.000 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/gpipe.py:90(CellFnFPropOpReplacementWrapper)
+        1    0.000    0.000    0.000    0.000 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/gpipe.py:388(_get_input_shapes)
+        1    0.000    0.000    0.000    0.000 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/gpipe.py:360(_ToTShape)
+        1    0.000    0.000    0.000    0.000 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/gpipe.py:330(Params)
+        1    0.000    0.000    0.000    0.000 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/gpipe.py:256(Params)
+        1    0.000    0.000    0.000    0.000 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/gpipe.py:380(_get_state_dtype)
+        1    0.000    0.000    0.000    0.000 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/gpipe.py:227(<listcomp>)
+        8    0.000    0.000    0.000    0.000 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/gpipe.py:533(<lambda>)
+        4    0.000    0.000    0.000    0.000 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/gpipe.py:453(GetCellFn)
+        3    0.000    0.000    0.000    0.000 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/gpipe.py:534(<lambda>)
+        1    0.000    0.000    0.000    0.000 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/gpipe.py:232(<listcomp>)
+        1    0.000    0.000    0.000    0.000 /home/aditya/.local/lib/python3.8/site-packages/lingvo/core/gpipe.py:198(FlattenSeq)
+
+

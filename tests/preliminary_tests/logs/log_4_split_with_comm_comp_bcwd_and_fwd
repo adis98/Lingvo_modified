@@ -1,0 +1,56 @@
+starting auto_part 4 splits at 1612069476.3522513
+starting self.verify timestamps at 1612069476.3522615
+starting setup and partitioning at 1612069476.917564
+histo (used to get histo_pct):   [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
+histo_pct (used for calculating cost:)   [0.0625, 0.125, 0.1875, 0.25, 0.3125, 0.375, 0.4375, 0.5, 0.5625, 0.625, 0.6875, 0.75, 0.8125, 0.875, 0.9375, 1.0]
+finished setup and partitioning at 1612069477.013337
+starting forward prop at 1612069477.0133421
+starting evaluation of expected outputs of layers at: 1612069477.1171024
+finished evaluating expected outputs of layers at: 1612069477.2934964
+starting symbolic creation of link between device 0 and device 1 at time: 1612069477.2952986
+finished creation of symbolic link btwn device 0 and 1 at: 1612069477.2954204
+building of input layers at: 1612069477.295675
+building done for input layers at: 1612069477.3700895
+performing linking of devices and creating layers for intermediate layers at: 1612069477.3700988
+linking of middle layers done at: 1612069477.5215874
+building of final layers at: 1612069477.521625
+building of final layers done at: 1612069477.6140797
+actual forward prop with data transfer starting at: 1612069477.6140902
+input layer sending data at: 1612069477.6838565
+input layer finished sending at: 1612069477.6847441
+middle layer receiving inputs from prev split at: 1612069477.7726214
+middle layer finished receiving at: 1612069477.77338
+middle layer sending to next layer at: 1612069477.8220856
+middle layer finished sending to next layer at: 1612069477.8228803
+middle layer receiving inputs from prev split at: 1612069478.0083506
+middle layer finished receiving at: 1612069478.0091288
+middle layer sending to next layer at: 1612069478.0588832
+middle layer finished sending to next layer at: 1612069478.059618
+output layer receiving at: 1612069478.176353
+output finished receiving at: 1612069478.1770895
+actual fwd prop ended at: 1612069478.3040109
+releasing of final layer output starting at: 1612069478.3040183
+releasing of final layer outputs ended at: 1612069478.3050392
+finished forward prop at 1612069478.3058627
+starting backprop + loss comput at 1612069478.3058665
+loss computation starting at: 1612069478.3058681
+loss computation finished at: 1612069478.3064349
+sending the gradient from output layer backwards at: 1612069478.504187
+finished sending gradients from output layer at: 1612069478.5050812
+input layer gradient comp. finished at: 1612069478.51819
+middle layer receiving gradients from subsequentlayer at: 1612069478.6692162
+middle layer finished receiving gradients from subsequent layer at: 1612069478.6699474
+middle layer sending gradients to previous layer at: 1612069478.73458
+middle layer finished sending gradients to previous layer at: 1612069478.735383
+input layer gradient comp. finished at: 1612069478.7537308
+middle layer receiving gradients from subsequentlayer at: 1612069478.906663
+middle layer finished receiving gradients from subsequent layer at: 1612069478.907378
+middle layer sending gradients to previous layer at: 1612069478.9709394
+middle layer finished sending gradients to previous layer at: 1612069478.9716718
+input layer gradient comp. finished at: 1612069478.9896164
+input layer receiving gradients from middle layer at: 1612069479.1196833
+input layer finished receiving gradients from middle layer at: 1612069479.1204088
+input layer gradient comp. finished at: 1612069479.1820369
+finished backprop + loss comput at 1612069480.5831869
+finished inside self.verify timestamps at 1612069480.6156042
+finished auto 4 splits at 1612069480.6156576
